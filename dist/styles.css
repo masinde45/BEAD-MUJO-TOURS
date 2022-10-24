@@ -1,0 +1,81 @@
+h1 {
+    font-size: 5rem;
+    background-color: red;
+    text-align: center;
+    max-width: fit-content;
+    margin-left: 200px;
+}
+.main {
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    top: 200px;
+    width: 1000px;
+}
+body {
+    background-color: green;
+}
+.homeimage {
+    width: 800px;
+    height: 600px;
+    border-radius: 20%;
+}
+.img-1 {
+    width: 300px;
+    height: 300px;
+    border: dotted;
+    border-radius: 20%;
+    margin-left: 5px;
+}
+.img-2 {
+    width: 300px ;
+    height: 300px;
+    border: dotted;
+    border-radius: 20%;
+    margin-left: 5px;
+}
+.img-3 {
+    width: 300px ;
+    height: 300px;
+    border: dotted;
+    border-radius: 20%;
+    margin-left: 5px;
+}
+ul li {
+    display: inline;
+    color: red;
+    list-style-type: none;
+    padding: 10px;
+    margin-right: 40px;
+    top: 40px;
+}
+ul {
+    width: 100% ;
+    display: flex;
+    justify-content: end;
+    flex-direction: row;
+    position: fixed;
+    right: 0%;
+    margin: 0;
+
+}
+.transition {
+   display: flex;
+   height: 100px;
+   width: 100px;
+    background-color: chartreuse;
+    transition-property: width;
+    transition-timing-function: linear;
+    justify-content: center;
+    text-decoration: underline;
+}
+form {
+    background-color: deeppink;
+    width: 400px;
+    text-align: center;
+}
+p {
+    font-size: 15px;
+    position: relative;
+}
+
